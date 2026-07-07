@@ -7,7 +7,7 @@
 ---
 
 ### 2. English Meaning
-`f(i) represents Min cost to reach ith stauir and use ith stair`
+`f(i) represents Min cost to reach ith stair and use ith stair`
 ---
 
 ---
