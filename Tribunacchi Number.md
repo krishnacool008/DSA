@@ -28,16 +28,17 @@
 
 ### 5. Verification
 - f(i) represents number at ith position of tribunacci series
-- f(i) represents number at ith position of tribunacci series
-- f(i) represents number at ith position of tribunacci series
-- f(i) represents number at ith position of tribunacci series
+- f(i-1) represents number at i-1st position of tribunacci series
+- f(i-2) represents number at i-2end position of tribunacci series
+- f(i-3) represents number at i-3rd position of tribunacci series
 
 ---
 
 
 ### 6. Base Case If Any
-`f(0) = .`
-`f(1) = .`
+`f(0) = 0`
+`f(1) = 1`
+`f(2) = 1`
 ---
 
 ---
