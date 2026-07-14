@@ -7,7 +7,7 @@
 ---
 
 ### 2. English Meaning
-`f(i) represents max coins after ith house visit`
+`f(i) represents max coins we have after robbing ith house`
 ---
 
 ---
@@ -24,23 +24,27 @@
 ### 4. Recurrence
 `f(i) = max(f(i-1), f(i-2) + cost[i])`
 ---
-- We can come from i-1 or i-2 house plus the current cost to use ith stair
+- If we are skipping current house then money stays same as `f(i-1)` money collected from till i-1st house
+- If we are robbing current house then we will have money we had at i-2end house `f(i-2)`
 
 ---
 
 ### 5. Verification
-- f(i) = minimum cost required to reach and use stair i
-- f(i-1) = minimum cost required to reach and use stair i-1
-- f(i-2) = minimum cost required to reach and use stair i-2
+- f(i) represents max coins we have after robbing ith house
+- f(i-1) represents max coins we have after robbing i-1th house
+- f(i-2) represents max coins we have after robbing i-2th house
 
 ---
 
 
 ### 6. Base Case If Any
-`f(0) = cost(0)`
-`f(1) = cost(1)`
+`f(0) = coint[0]`
+`f(1) = max( coin[0], coin[1] )`
 ---
 
 ---
 
+### 7. Final Answer To Code
+`Answer = f(len(cost) - 1)` according to line 25
+---
 
