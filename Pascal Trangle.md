@@ -42,4 +42,8 @@
 
 ---
 
+### 7. Final Answer To Code
+`Answer = f(n, r)` according to the state definition
+---
+
 

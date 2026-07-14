@@ -45,7 +45,11 @@
   `f(n) = 0 where for all n > i` 
 ---
 
-### 7. Example and Thinking
+### 7. Final Answer To Code
+`Answer = f(0)` according to the state definition
+---
+
+### 8. Example and Thinking
 
 ```python
 cost = [1,100,1]

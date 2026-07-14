@@ -39,7 +39,11 @@
 
 ---
 
-### 6. Negative power
+### 7. Final Answer To Code
+`Answer = f(n)` according to the state definition
+---
+
+### 8. Negative power
     If the power is negative treat that as different porblem where only negative power is allowed
     and create the recurrence according to that
     have switch to start which solution +ve one or -ve one

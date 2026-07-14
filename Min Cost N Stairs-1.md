@@ -43,4 +43,8 @@
 
 ---
 
+### 7. Final Answer To Code
+`Answer = f(n-1)` according to the state definition
+---
+
 

@@ -41,4 +41,8 @@ Both contribution is needed, this is contribution problem
 
 ---
 
+### 7. Final Answer To Code
+`Answer = f(n)` according to the state definition
+---
+
 
