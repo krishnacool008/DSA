@@ -1,0 +1,57 @@
+{
+  "fields": [
+    {
+      "sourcename": "AccountID",
+      "destinationname": "ACCOUNTID",
+      "type": "string"
+    },
+    {
+      "sourcename": "AccountsInfo",
+      "destinationname": "ACCOUNTSINFO",
+      "type": "struct",
+      "explode": "false",
+      "fields": [
+        {
+          "sourcename": "AccountOpenDtCRL",
+          "destinationname": "ACCOUNTOPENDTCRL",
+          "type": "string"
+        },
+        {
+          "sourcename": "AccountStatus",
+          "destinationname": "ACCOUNTSTATUS",
+          "type": "string"
+        },
+        {
+          "sourcename": "AccountTypeDesc",
+          "destinationname": "ACCOUNTTYPEDESC",
+          "type": "string"
+        },
+        {
+          "sourcename": "BandCntrlNum",
+          "destinationname": "BANDCNTRLNUM",
+          "type": "string"
+        },
+        {
+          "sourcename": "ClaimID",
+          "destinationname": "CLAIMID",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "sourcename": "AccountStatus",
+      "destinationname": "ACCOUNTSTATUS",
+      "type": "string"
+    },
+    {
+      "sourcename": "AccountStatusPostApi",
+      "destinationname": "ACCOUNTSTATUSPOSTAPI",
+      "type": "string"
+    },
+    {
+      "sourcename": "AcknowlegementDate",
+      "destinationname": "ACKNOWLEGEMENTDATE",
+      "type": "string"
+    }
+  ]
+}

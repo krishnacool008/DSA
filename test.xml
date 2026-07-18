@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema xmlns:xalan = "https://xml.apache.org/xalan" xmlns:xs="http://www.we.org/2001/XMLSchema" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <xs:element name="TD-CRL-Work-Claim-Credit-BCS">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="header" minOccurs="0">
+
+                </xs:element>
+                <xs:element name="item" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="AccountID" typep="xs:string" minOccurs="0"/>
+                            <!-- Page list page class: TD_CRL_Data_Accounts-->
+                            <xs:element name= "AccountsInfo" minOccurs="0" maxOcurrs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="AccountOpenDtCRL" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="AccountStatus" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="AccountTypeDesc" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="BandCntrlNum" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="ClaimID" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="AccountStatus" type="xs:string" minOccurs="0"/>
+                            <xs:element name="AccountStatusPostApi" type="xs:string" minOccurs="0"/>
+                            <xs:element name="AcknowlegementDate" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="footer" minOccurs="0">
+                    
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
