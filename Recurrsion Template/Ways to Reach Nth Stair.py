@@ -11,6 +11,10 @@ def countWays(i):
 
 
 # Example usage:
-n = 6  # Number of stairs
-ways = countWays(n)
-print(f"Number of ways to reach the {n}th stair: {ways}")
+if __name__ == "__main__":
+    n = 6  # Number of stairs
+    ways = countWays(n)
+    print(f"Number of ways to reach the {n}th stair: {ways}")
+
+
+
